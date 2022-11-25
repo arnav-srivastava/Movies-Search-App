@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Search App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="main">
+        <h1>SEARCH YOUR FAVOURITE MOVIES</h1>
+        <form autocomplete="off">
+            <input type="text" id="inp" placeholder="Search here..">
+            <button>Search</button>
+        </form>
+    </section>
+
+
+    <theme class="form-control">
+        <fieldset class="color-changer">
+
+          <input  style="color: rgb(205,183,187);" type="radio" id="Light" name="theme">
+
+            
+            <input style="color: rgb(242,172,185);" type="radio" id="Pink" name="theme">
+
+            
+            <input style="color: rgb(19,64,179);"type="radio" id="Blue" name="theme">
+
+            
+            <input style="color: rgb(19, 227, 19);" type="radio" id="Green" name="theme">
+
+            
+            <input style="color: rgb(32,42,68);" type="radio" id="Dark" name="theme">
+
+        </fieldset>
+    </theme>
+
+
+    <section id="main">
+        <div id="items"></div>
+        </section>
+
+
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
